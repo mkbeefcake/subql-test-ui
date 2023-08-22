@@ -29,7 +29,7 @@ const linkPage = [
 
 function App() {
   return (
-    <Box>
+    <Box style={{padding: 10}}>
       <Router>
         <Navbar />
         <br />

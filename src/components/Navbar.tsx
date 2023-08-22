@@ -29,9 +29,9 @@ const Logo = () => {
   return (
     <Link href="/">
       <Image
-        src="/logo192.png"
+        src="/joystream200.png"
         alt="brand logo"
-        h={{ base: "30px", md: "20px", sm: "30px" }}
+        h={{ base: "50px", md: "50px", sm: "50px" }}
       />
     </Link>
   );
