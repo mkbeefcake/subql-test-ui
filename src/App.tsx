@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Box } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage"
 import Blocks from "./pages/Blocks";
 import Extrinsics from "./pages/Extrinsics";
@@ -42,6 +43,8 @@ function App() {
             );
           })}
         </Switch>
+        <br/>
+        <Footer/>
       </Router>
     </Box>
   );
